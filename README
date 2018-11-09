@@ -1,0 +1,10 @@
+该项目使用django写的，实现了简单的登录注册页面。
+在注册页面的时候用到了from django.core.mail import EmailMultiAlternatives启用的sina发送邮件（当然你也可以启用qq邮箱也是ok的）
+当你拷贝下本项目的时候，需要注意的是settings.example.py文件需要你手动改为settings.py文件
+在settings文件中需要你自己配置一下自己的数据库（mysql，建库）和 发送邮件的配置。
+
+
+
+
+
+
